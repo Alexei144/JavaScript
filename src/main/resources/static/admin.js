@@ -152,7 +152,7 @@ function editModal(id) {
             document.getElementById('editName').value = u.name;
             document.getElementById('editAge').value = u.age;
             document.getElementById('editEmail').value = u.email;
-            document.getElementById('editPassword').value = "****";
+            document.getElementById('editPassword').value = "";
 
         })
     });
